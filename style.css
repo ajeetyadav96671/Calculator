@@ -1,0 +1,265 @@
+body{
+    background: linear-gradient(30deg,#bdc3c7 , #2c3e50);
+    min-height:800px; 
+    margin: 0;
+    padding: 0;
+}
+
+ 
+nav {
+    background-color: #333;
+    height:50px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+top: 0;
+left: 0;
+right: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 5px;
+    height: 100%;
+  }
+  
+  nav li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    
+  }
+  li a:hover{
+    background-color: white;
+    color: black;
+    height: 24px;
+    margin-top: 0%;
+  } 
+ 
+  
+  
+  #main_div{
+    margin-top: 6%;
+  }
+.calculator {
+border-collapse: collapse;
+background-color: black;
+height : 350px;
+width : 250px;
+max-width: 360px;
+margin-top: 2%;
+
+text-align: center;
+}
+
+#result{
+background-color: black;
+color: cyan;
+height:45px;
+padding-top : 22px;
+text-align : right;
+font-size : 35px;
+
+}
+.button{
+    background-color: darkorange;
+    border: 0 ;
+    width: 145px;
+    border-collapse: collapse;
+}
+.operator{
+    background-color:lightgray;
+}
+.opt{
+    font-size:15px;
+    width:100px;
+    height: 25px;
+    background-color:lightgray;
+    border:0;
+}
+.btn{
+    background-color: darkorange;
+    border: 0;
+    width : 100px;
+    height:25px;
+}
+#clear{
+    background-color: red;
+    border: 0;
+    width: 100px;
+    height: 25px;
+}
+.clear{
+    background-color:red;
+}
+#clear:hover{
+    background-color: lightgray;
+}
+.btn:hover {
+background-color: lightgray;
+}
+.opt:hover{
+    background-color:bisque;
+}
+.calculator:hover{
+    box-shadow: 0px 0px 23px 18px  black;
+}
+#heading{
+    font-size: 55px; 
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color:#2dfdfd; 
+    text-shadow: 10px 2px 5px #10a0a0fa; 
+  margin: 0 0 20px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px)  {
+  body{
+    
+    margin:0px;
+  }
+  #logo {
+    width: 100%;
+    background-color: white;
+    height: 10vh;
+    margin:0px 0px 0px 0px;
+  }
+
+  nav {
+    background-color:black;
+    height: 28vh;
+    padding-left: 0;
+    
+  }
+
+  nav ul {
+    padding: 0px;
+    text-align: center;
+    margin:0px;
+    background-color: black;
+    
+  }
+
+  nav li {
+    list-style-type: none;
+/*     margin: 3vh 0 10px; */
+    margin:0px;
+    padding:0px;
+    width: 100%;
+  }
+
+  nav li a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    display: block;
+    padding: 10px;
+    
+  }
+
+  nav li:hover a {
+    background-color: brown;
+  }
+
+  div#main_div {
+    margin-top: 25%;
+}
+h1#heading {
+  font-size: 41px;
+}
+input#result{
+width:23vh;
+/* background-color: antiquewhite; */
+
+}
+td#disp{
+width: 5vh;   
+}
+section#nav_section{
+height: 25vh;
+}
+}
+@media only screen and (min-width: 481px) and (max-width: 708px){
+  nav {
+    background-color: #333;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  nav div {
+    line-height: 11px; 
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:black;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 5px;
+    height: 100%;
+  }
+  
+  nav li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: white;
+    color: black;
+    height: 16px;
+    margin-top: 0%;
+  }
+  
+  #logo{
+    height: 50px;
+    width: 27vh;
+}
+nav li{
+  margin-right: 21px;
+}
+nav li a{
+  padding:8px;
+}
+
+
+
+#main_div {
+    margin-top: 20%;
+}
+}
+@media only screen and (min-width: 709px) {
+  
+   #logo{
+    height:50px;
+    width:150px;
+    float: left;
+} 
+
+}
